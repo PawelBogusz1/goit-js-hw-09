@@ -8,7 +8,6 @@ const formDelay = {
 };
 
 formDelay.form.addEventListener('submit', submitForm);
-
 function createPromise(position, delay) {
   const resolvePromise = new Promise((resolve, reject) => {
     setTimeout(() => {

@@ -45,5 +45,6 @@ function submitForm(event) {
         );
       });
           waitDelay += waitStep;
+          
   }
 }

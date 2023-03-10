@@ -44,6 +44,7 @@ function submitForm(event) {
           `❌ Rejected promise ${position} in ${delay}ms`
         );
       });
+      
     waitDelay += waitStep;
   }
 }
